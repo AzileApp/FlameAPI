@@ -5,7 +5,7 @@ const fetch = require('node-fetch');
 const app = express()
 
 app.get('/', function(req, res) {
-    res.status(200).json({ Endpoint: 'Flame', Developer: 'Jonax', Documentation: `https://docs.azile.app/flame`})
+    res.status(200).json({ Endpoint: 'Flame', Developer: 'Jonax', Documentation: `https://docs.azile.app/reference/api-reference/flame`})
 
 });
 
